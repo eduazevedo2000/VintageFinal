@@ -54,4 +54,4 @@ jobs:
           app-name: 'vintage'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_14C05883DF0545DF94AB9047FFE9BDB6 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D048F8B99C8E49D4A522E1A7A23E829C }}
