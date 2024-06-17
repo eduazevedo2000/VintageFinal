@@ -1,0 +1,40 @@
+﻿@using Vintage.ViewModels
+@model ProductViewModel
+
+<!DOCTYPE html>
+<html lang="pt-pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Produtos</title>
+</head>
+
+<body>
+    <header>
+    </header>
+    <br />
+    <main>
+        <div class="card-container justify-content-center">
+            @foreach (var product in Model.Products)
+            {
+                <div class="card col-lg-4">
+                    <a class="productClick" asp-controller="Product" asp-action="ProductDetails"
+                        asp-route-id="@product.ProductId">
+                        <img src="@product.FirstImageUrl" alt="@product.Modelo" />
+                        <div class="container">
+                            <h4><b>@product.Marca @product.Modelo</b></h4>
+                            <p>Preço: @product.Preco €</p>
+                        </div>
+                    </a>
+                </div>
+            }
+        </div>
+    </main>
+    <footer>
+    </footer>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+
+</html>

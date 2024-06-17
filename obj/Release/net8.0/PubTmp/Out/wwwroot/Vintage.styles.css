@@ -1,0 +1,46 @@
+/* _content/Vintage/Views/Shared/_Layout.cshtml.rz.scp.css */
+header[b-s2x4udnt1n] {
+  background-color: #666666;
+  color: #ffffff;
+}
+
+.navbar-nav[b-s2x4udnt1n] {
+  align-items: end;
+  width: 100%;
+}
+
+.nav-item[b-s2x4udnt1n] {
+  width: 50px;
+  height: 50px;
+}
+
+.navbar-nav-centered[b-s2x4udnt1n] {
+  width: 100%;
+  text-align: center;
+}
+
+.navbar-nav-centered .nav-item[b-s2x4udnt1n] {
+  display: inline-block;
+  float: none;
+}
+
+.border-top[b-s2x4udnt1n] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-s2x4udnt1n] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-s2x4udnt1n] {
+  box-shadow: 0.75rem 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+}
+
+footer[b-s2x4udnt1n] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+  background-color: #000000;
+  color: #ffffff;
+}

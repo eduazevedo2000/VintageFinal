@@ -1,0 +1,55 @@
+﻿@using Vintage.ViewModels
+@model ProductViewModel
+
+@foreach (var product in Model.Products)
+{
+    <div class="product-details-container">
+    <div class="image-thumbnails">
+        @if (!string.IsNullOrEmpty(product.FirstImageUrl))
+            {
+                <img src="@product.FirstImageUrl" alt="@product.Modelo" class="thumbnail-image"
+                    onclick="changeMainImage(this.src)" />
+            }
+            @if (!string.IsNullOrEmpty(product.SecondImageUrl))
+            {
+                <img src="@product.SecondImageUrl" alt="@product.Modelo" class="thumbnail-image"
+                    onclick="changeMainImage(this.src)" />
+            }
+            @if (!string.IsNullOrEmpty(product.ThirdImageUrl))
+            {
+                <img src="@product.ThirdImageUrl" alt="@product.Modelo" class="thumbnail-image"
+                    onclick="changeMainImage(this.src)" />
+            }
+        </div>
+        <div class="image-gallery">
+            <img id="mainImage" src="@product.FirstImageUrl" alt="@product.Modelo" class="main-image" />
+        </div>
+        <div class="product-info">
+            <h4><b>@product.Marca @product.Modelo</b></h4>
+            <p>Preço: @product.Preco €</p>
+            <p>Quantidade Disponível: @product.Quantidade</p>
+            <div id="chatbot-container">
+                <iframe
+                    src="https://webchat.botframework.com/embed/vintageBotFinal?s=wu1HngTCULA.but65ZjzeGlrKc457NSLcGitpid7JZuv3EbtMrgkRoY"
+                    style="width: 100%; height: 100%; border: none;"></iframe>
+            </div>
+            <form asp-controller=" Cart" asp-action="AddToCart" method="post">
+                <input type="hidden" name="productId" value="@product.ProductId" />
+                <label for="quantity">Quantidade:</label>
+                <select id="quantity" name="quantity">
+                    @for (int i = 1; i <= 10; i++)
+                    {
+                        <option value="@i">@i</option>
+                    }
+                </select>
+                <button type="submit" class="add-to-cart">Adicionar ao carrinho</button>
+            </form>
+        </div>
+    </div>
+}
+
+<script>
+    function changeMainImage(src) {
+        document.getElementById('mainImage').src = src;
+    }
+</script>

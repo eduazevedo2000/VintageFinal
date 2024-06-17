@@ -1,0 +1,25 @@
+﻿@using Vintage.ViewModels
+@model OrderViewModel
+
+<h2>Histórico</h2>
+
+@if (!Model.Order.Any())
+{
+    <p>Sem histórico de compras</p>
+}
+else
+{
+    <div class="order-history-container">
+    @foreach (var order in Model.Order)
+        {
+            <div class="order-item">
+                <div class="order-details">
+                    <span class="order-id"><strong>Id da compra:</strong> @order.OrderId</span>
+                    <span class="order-date"><strong>Data da compra:</strong> @order.OrderDate</span>
+                    <span class="order-total"><strong>Total:</strong> @order.TotalAmount €</span>
+                    <span class="order-status"><strong>Estado:</strong> @order.Status</span>
+                </div>
+            </div>
+        }
+    </div>
+}

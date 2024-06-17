@@ -1,0 +1,37 @@
+﻿@using Vintage.ViewModels
+@model CartViewModel
+
+<h2>Checkout</h2>
+
+@if (!Model.Cart.Any())
+{
+    <p>O seu carrinho está vazio</p>
+}
+else
+{
+    <div class="checkout-container">
+    <div class="cart-container">
+        @foreach (var item in Model.Cart)
+            {
+                <div class="cart-item">
+                    <div class="cart-item-image">
+                        <img src="@item.Product.FirstImageUrl" alt="@item.Product.Modelo" />
+                    </div>
+                    <div class="cart-item-details">
+                        <h4>@item.Product.Marca @item.Product.Modelo</h4>
+                        <p>Quantidade: @item.Quantity</p>
+                        <p>Preço: @item.Product.Preco €</p>
+                    </div>
+                </div>
+            }
+        </div>
+        <div class="checkout-summary">
+            <div class="summary-total">
+                <span>Total: @Model.Cart.Sum(item => item.Quantity * item.Product.Preco) €</span>
+            </div>
+            <form asp-action="PlaceOrder" method="post">
+                <button type="submit" class="confirm-purchase">Confirmar compra</button>
+            </form>
+        </div>
+    </div>
+}

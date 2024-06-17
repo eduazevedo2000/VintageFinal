@@ -1,0 +1,41 @@
+﻿@using Vintage.ViewModels
+@model CartViewModel
+
+<h2>Seu Carrinho</h2>
+
+@if (!Model.Cart.Any())
+{
+    <p>O seu carrinho está vazio</p>
+}
+else
+{
+    <div class="cart-container">
+    @foreach (var item in Model.Cart)
+        {
+            <div class="cart-item">
+                <div class="cart-item-image">
+                    <img src="@item.Product.FirstImageUrl" alt="@item.Product.Modelo" />
+                </div>
+                <div class="cart-item-details">
+                    <h4>@item.Product.Marca @item.Product.Modelo</h4>
+                    <p>Quantidade: @item.Quantity</p>
+                    <p>Preço: @item.Product.Preco €</p>
+                    <form asp-action="RemoveFromCart" method="post" class="remove-form">
+                        <input type="hidden" name="productId" value="@item.ProductId" />
+                        <button type="submit">Remover</button>
+                    </form>
+                </div>
+            </div>
+        }
+    </div>
+
+    <div class="cart-actions">
+    <form asp-action="ClearCart" method="post">
+        <button type="submit">Limpar Carrinho</button>
+    </form>
+
+    <form asp-action="Checkout" method="post" class="checkout-form">
+        <button type="submit">Continuar para o checkout</button>
+    </form>
+</div>
+}

@@ -1,0 +1,107 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Vintage
+build_property.RootNamespace = Vintage
+build_property.ProjectDir = /Users/eduazevedo/Documents/Faculdade/IntegraçãodeSistemas/VintageFinal-main/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/eduazevedo/Documents/Faculdade/IntegraçãodeSistemas/VintageFinal-main
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/eduazevedo/Documents/Faculdade/IntegraçãodeSistemas/VintageFinal-main/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eduazevedo/Documents/Faculdade/IntegraçãodeSistemas/VintageFinal-main/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9SZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eduazevedo/Documents/Faculdade/IntegraçãodeSistemas/VintageFinal-main/Views/Cart/Checkout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FydC9DaGVja291dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eduazevedo/Documents/Faculdade/IntegraçãodeSistemas/VintageFinal-main/Views/Cart/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FydC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eduazevedo/Documents/Faculdade/IntegraçãodeSistemas/VintageFinal-main/Views/Cart/OrderConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FydC9PcmRlckNvbmZpcm1hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eduazevedo/Documents/Faculdade/IntegraçãodeSistemas/VintageFinal-main/Views/Order/OrderHistory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3JkZXIvT3JkZXJIaXN0b3J5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eduazevedo/Documents/Faculdade/IntegraçãodeSistemas/VintageFinal-main/Views/Product/Brand.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9CcmFuZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eduazevedo/Documents/Faculdade/IntegraçãodeSistemas/VintageFinal-main/Views/Product/Home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9Ib21lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eduazevedo/Documents/Faculdade/IntegraçãodeSistemas/VintageFinal-main/Views/Product/ProductDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9Qcm9kdWN0RGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eduazevedo/Documents/Faculdade/IntegraçãodeSistemas/VintageFinal-main/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eduazevedo/Documents/Faculdade/IntegraçãodeSistemas/VintageFinal-main/Views/Shared/_BrandPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19CcmFuZFBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eduazevedo/Documents/Faculdade/IntegraçãodeSistemas/VintageFinal-main/Views/Shared/_CartPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19DYXJ0UGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eduazevedo/Documents/Faculdade/IntegraçãodeSistemas/VintageFinal-main/Views/Shared/_CheckoutPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19DaGVja291dFBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eduazevedo/Documents/Faculdade/IntegraçãodeSistemas/VintageFinal-main/Views/Shared/_HomePartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Ib21lUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eduazevedo/Documents/Faculdade/IntegraçãodeSistemas/VintageFinal-main/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eduazevedo/Documents/Faculdade/IntegraçãodeSistemas/VintageFinal-main/Views/Shared/_OrderHistoryPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19PcmRlckhpc3RvcnlQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eduazevedo/Documents/Faculdade/IntegraçãodeSistemas/VintageFinal-main/Views/Shared/_ProductDetailsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Qcm9kdWN0RGV0YWlsc1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eduazevedo/Documents/Faculdade/IntegraçãodeSistemas/VintageFinal-main/Views/Shared/_RegisterPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19SZWdpc3RlclBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eduazevedo/Documents/Faculdade/IntegraçãodeSistemas/VintageFinal-main/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eduazevedo/Documents/Faculdade/IntegraçãodeSistemas/VintageFinal-main/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eduazevedo/Documents/Faculdade/IntegraçãodeSistemas/VintageFinal-main/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eduazevedo/Documents/Faculdade/IntegraçãodeSistemas/VintageFinal-main/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-s3dtd86krc
