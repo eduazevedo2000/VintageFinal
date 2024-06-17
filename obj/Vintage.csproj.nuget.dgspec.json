@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/eduazevedo/Documents/Faculdade/IntegraçãodeSistemas/VintageFinal-main/Vintage.csproj": {}
+    "/Users/eduazevedo/Documents/Faculdade/IntegraçãodeSistemas/VintageFinal/Vintage.csproj": {}
   },
   "projects": {
-    "/Users/eduazevedo/Documents/Faculdade/IntegraçãodeSistemas/VintageFinal-main/Vintage.csproj": {
+    "/Users/eduazevedo/Documents/Faculdade/IntegraçãodeSistemas/VintageFinal/Vintage.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/eduazevedo/Documents/Faculdade/IntegraçãodeSistemas/VintageFinal-main/Vintage.csproj",
+        "projectUniqueName": "/Users/eduazevedo/Documents/Faculdade/IntegraçãodeSistemas/VintageFinal/Vintage.csproj",
         "projectName": "Vintage",
-        "projectPath": "/Users/eduazevedo/Documents/Faculdade/IntegraçãodeSistemas/VintageFinal-main/Vintage.csproj",
+        "projectPath": "/Users/eduazevedo/Documents/Faculdade/IntegraçãodeSistemas/VintageFinal/Vintage.csproj",
         "packagesPath": "/Users/eduazevedo/.nuget/packages/",
-        "outputPath": "/Users/eduazevedo/Documents/Faculdade/IntegraçãodeSistemas/VintageFinal-main/obj/",
+        "outputPath": "/Users/eduazevedo/Documents/Faculdade/IntegraçãodeSistemas/VintageFinal/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/eduazevedo/.nuget/NuGet/NuGet.Config"

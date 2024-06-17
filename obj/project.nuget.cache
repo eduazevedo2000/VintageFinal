@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eRScZepjpf7+7MabvZKgErI2D1soeYbgWVESBVpbi3fo8hE0xXOAdpuNCZQTgwgHbiyR59iObCXvO5NUbrcgNQ==",
+  "dgSpecHash": "IImIWbTqWmXBg02vuRtDDxhJS2L5idEc94ZS6gTLeaGyZ0H25HAerF3AeBElqBMfDpMHDew41lQh/IgUZZGtRw==",
   "success": true,
-  "projectFilePath": "/Users/eduazevedo/Documents/Faculdade/IntegraçãodeSistemas/VintageFinal-main/Vintage.csproj",
+  "projectFilePath": "/Users/eduazevedo/Documents/Faculdade/IntegraçãodeSistemas/VintageFinal/Vintage.csproj",
   "expectedPackageFiles": [
     "/Users/eduazevedo/.nuget/packages/azure.core/1.39.0/azure.core.1.39.0.nupkg.sha512",
     "/Users/eduazevedo/.nuget/packages/azure.identity/1.10.3/azure.identity.1.10.3.nupkg.sha512",
